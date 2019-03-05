@@ -1,8 +1,6 @@
-" noctu.vim - Vim color scheme for 16-color terminals
-" --------------------------------------------------------------
-" Author:   Noah Frederick (http://noahfrederick.com/)
-" Version:  1.8.0
-" --------------------------------------------------------------
+" arktu.vim - Vim color scheme for 16-color terminals
+" based on noctu.vim by Noah Frederick (http://noahfrederick.com/)
+" tweaked by Rachel K <raech.kanati@gmail.com> (http://rkanati.github.io/)
 
 " Scheme setup {{{
 set background=dark
@@ -72,8 +70,8 @@ hi! link SpecialKey    NonText
 "}}}
 " Generic syntax {{{
 hi Delimiter        ctermfg=8
-hi Comment          ctermfg=8
-hi SpecialComment   ctermfg=1
+hi Comment          ctermfg=8     cterm=italic
+hi SpecialComment   ctermfg=1     cterm=italic
 hi Underlined       ctermfg=4     cterm=underline
 hi Type             ctermfg=1
 hi Keyword          ctermfg=5     cterm=bold
