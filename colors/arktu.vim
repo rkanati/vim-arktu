@@ -28,7 +28,7 @@ hi SpellCap            ctermfg=10    ctermbg=NONE  cterm=underline
 hi SpellRare           ctermfg=11    ctermbg=NONE  cterm=underline
 hi SpellLocal          ctermfg=13    ctermbg=NONE  cterm=underline
 hi NonText             ctermfg=8
-hi LineNr              ctermfg=8     ctermbg=NONE
+hi LineNr              ctermfg=8     ctermbg=0
 hi CursorLineNr        ctermfg=11    ctermbg=0
 hi Visual              ctermfg=0     ctermbg=12
 hi IncSearch           ctermfg=15    ctermbg=NONE  cterm=bold,underline
@@ -217,10 +217,10 @@ hi! link shDerefVar  shDerefSimple
 
 "}}}
 " Syntastic {{{
-hi SyntasticWarningSign       ctermfg=3  ctermbg=NONE
-hi SyntasticErrorSign         ctermfg=1  ctermbg=NONE
-hi SyntasticStyleWarningSign  ctermfg=2  ctermbg=NONE
-hi SyntasticStyleErrorSign    ctermfg=4  ctermbg=NONE
+hi SyntasticWarningSign       ctermfg=3
+hi SyntasticErrorSign         ctermfg=1
+hi SyntasticStyleWarningSign  ctermfg=2
+hi SyntasticStyleErrorSign    ctermfg=4
 
 "}}}
 " Netrw {{{
